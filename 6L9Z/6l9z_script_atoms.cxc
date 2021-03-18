@@ -1,0 +1,27 @@
+graphics selection width 0
+
+color /A /E /K /O #008000
+color /B /F /L /P #3B71A7
+color /C /G /M /Q #FCBE03
+color /D /H /N /R #BD431F
+color /I #606060
+color /J #DCDCDC
+hide /S
+hide /A /B /C /D /E /F /G /H /I /J /K /L /M /N /O /P /Q /R 
+
+movie record supersample 3
+wait 10
+wobble
+show /A /E /K /O /B /F /L /P
+wait 75
+show /C /G /M /Q /D /H /N /R
+wait 75
+style /I /J stick
+hide /I /J atoms
+show /I /J cartoons
+wait 75
+stop
+turn y 3 120;
+wait
+movie stop
+movie encode ~/Desktop/maximG_viz/6L9Z/6L9Z_wobble_atoms_v2.mp4 quality high

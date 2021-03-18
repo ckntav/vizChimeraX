@@ -1,0 +1,29 @@
+graphics selection width 0
+
+color /A /E #008000
+color /B /F #3B71A7
+color /C /G #FCBE03
+color /D /H #BD431F
+color /I #A0A0A0
+color /J #DCDCDC
+style /A /B /C /D /E /F /G /H /I /J stick
+hide /A /B /C /D /E /F /G /H /I /J atoms
+show /A /B /C /D /E /F /G /H /I /J cartoons
+hide /A /B /C /D /E /F /G /H /I /J cartoons
+
+movie record supersample 3
+wait 10
+wobble
+show /A /E /B /F cartoons
+wait 75
+show /C /G /D /H cartoons
+wait 75
+style /I /J stick
+hide /I /J atoms
+show /I /J cartoons
+wait 75
+stop
+turn y 3 120;
+wait 
+movie stop
+movie encode ~/Desktop/maximG_viz/6JXD/6JXD_wobble_chains_v2.mp4 quality high
