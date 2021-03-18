@@ -27,4 +27,4 @@ stop
 turn y 3 120;
 wait
 movie stop
-movie encode ~/Desktop/maximG_viz/6L9Z/6L9Z_wobble_chains_v2.mp4 quality high
+movie encode ~/Desktop/vixChimeraX/6L9Z/6L9Z_wobble_chains_v2.mp4 quality high

@@ -9,5 +9,5 @@ Colors
 > H2A (jaune)
 #FCBE03
 
-# H2B (rouge)
+> H2B (rouge)
 #BD431F
